@@ -10,7 +10,7 @@ fps = 30
 pygame.init()
 pygame.mixer.init()
 screen = pygame.display.set_mode((wid, hei))
-pygame.display.set_caption("Boner")
+pygame.display.set_caption("Bone Knight")
 clock = pygame.time.Clock()
 
 sound_dir = path.join(path.dirname(__file__), 'sounds')

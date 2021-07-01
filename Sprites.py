@@ -13,7 +13,7 @@ GRAY = (100, 100, 100)
 
 pygame.init()
 screen = pygame.display.set_mode((wid, hei))
-pygame.display.set_caption("Boner")
+pygame.display.set_caption("Bone Knight")
 clock = pygame.time.Clock()
 
 textures_dir = path.join(path.dirname(__file__), 'textures')
